@@ -1,0 +1,257 @@
+@media only screen and (min-width: 1500px) {
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+    background-image: url("images/tartan.jpg");
+    
+}
+
+.container {
+    display: block;
+    text-align: center;
+}
+
+.title {
+    padding-top: 50px;
+    font-family: "Playwrite US Trad", cursive;
+    color: gold;
+    font-size: 20px;
+}
+
+
+#slider {
+    width: 80%;
+    min-width: 800px;
+    position: relative;
+    height: 500px;
+    padding-top: 200px;
+
+}
+
+#slider img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 1s;
+    padding-top: 70px ;
+}
+
+#slider img.active {
+    display: block;
+    opacity: 1;
+}
+
+}
+
+@media only screen and (max-width: 1499px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        height: 100vh;
+        margin: 0;
+        background-image: url("images/tartan.jpg");
+        
+    } 
+    .container {
+        display: block;
+        text-align: center;
+        margin: auto;
+    } 
+    .title {
+        padding-top: 15px;
+        font-family: "Playwrite US Trad", cursive;
+        color: gold;
+        font-size: 20px;
+    }
+    
+    #slider {
+        width: 80%;
+        min-width: 800px;
+        position: relative;
+        height: 500px;
+        padding-top: 200px;
+    
+    }
+    
+    #slider img {
+        width: 100%;
+        max-height: 500px;
+        object-fit: contain;
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: opacity 1s;
+        padding-top: 70px ;
+    }
+    
+    #slider img.active {
+        display: block;
+        opacity: 1;
+    } 
+
+}
+
+
+
+@media only screen and (max-width: 1197px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        height: 100vh;
+        margin: 0;
+        background-image: url("images/tartan.jpg");
+        
+    } 
+    .container {
+        display: block;
+        text-align: center;
+        margin: auto;
+    } 
+    .title {
+        padding-top: 15px;
+        font-family: "Playwrite US Trad", cursive;
+        color: gold;
+        font-size: 20px;
+    }
+    
+    #slider {
+        width: 80%;
+        min-width: 800px;
+        position: relative;
+        height: 500px;
+        padding-top: 200px;
+    
+    }
+    
+    #slider img {
+        width: 100%;
+        max-height: 500px;
+        object-fit: contain;
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: opacity 1s;
+        padding-top: 70px ;
+    }
+    
+    #slider img.active {
+        display: block;
+        opacity: 1;
+    } 
+
+}
+
+@media only screen and (max-width: 400px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        height: 100vh;
+        margin: 0;
+        background-image: url("images/tartan.jpg");
+        
+    }
+    
+    .container {
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+    
+    .title {
+        padding-top: 15px;
+        font-family: "Playwrite US Trad", cursive;
+        color: blue;
+        font-size: 15px;
+    }
+    
+    
+    #slider {
+        width: 80%;
+        min-width: 350px;
+        position: relative;
+        height: 500px;
+        padding-top: 200px;
+    
+    }
+    
+    #slider img {
+        width: 100%;
+        max-height: 500px;
+        object-fit: contain;
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: opacity 1s;
+        padding-top: 70px ;
+    }
+    
+    #slider img.active {
+        display: block;
+        opacity: 1;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        height: 100vh;
+        margin: 0;
+        background-image: url("images/tartan.jpg");
+        
+    } 
+    .container {
+        display: block;
+        text-align: center;
+        margin: auto;
+    } 
+    .title {
+        padding-top: 15px;
+        font-family: "Playwrite US Trad", cursive;
+        color: gold;
+        font-size: 20px;
+    }
+    
+    #slider {
+        width: 80%;
+        min-width: 500px;
+        position: relative;
+        height: 500px;
+        padding-top: 200px;
+    
+    }
+    
+    #slider img {
+        width: 100%;
+        max-height: 500px;
+        object-fit: contain;
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: opacity 1s;
+        padding-top: 70px ;
+    }
+    
+    #slider img.active {
+        display: block;
+        opacity: 1;
+    }
+}
+
