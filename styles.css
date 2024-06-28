@@ -153,7 +153,33 @@ body {
 
 }
 
-@media only screen and (max-width: 400px) {
+@media (orientation: landscape) {
+   .title h1 {
+    padding-top: 3px;
+    font-size: 10px;
+    color: gold;
+   }
+
+   #slider {
+    width: 90%;
+    min-width: 500px;
+    position: relative;
+    height: 500px;
+    padding-top: -100px;
+
+}
+.container {
+    margin: auto;
+}
+
+#slider img.active {
+    display: block;
+    padding-top: 0;
+    opacity: 1;
+}
+}
+
+@media only screen and (max-width: 450px) {
     body {
         display: flex;
         justify-content: center;
@@ -170,11 +196,12 @@ body {
         margin: auto;
     }
     
-    .title {
+    .title h1 {
         padding-top: 15px;
         font-family: "Playwrite US Trad", cursive;
-        color: blue;
-        font-size: 15px;
+        color: gold;
+        font-size: 30px;
+        margin: auto;
     }
     
     
