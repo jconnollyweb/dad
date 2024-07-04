@@ -8,5 +8,5 @@ document.addEventListener("DOMContentLoaded", function() {
         images[currentIndex].classList.add("active");
     }
 
-    setInterval(showNextImage, 6000); 
+    setInterval(showNextImage, 9000); 
 });
